@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a0a9068bb629138327b8eb8a1917347324e9da22',
+        'reference' => '6db0db94253ff636b827fb080e5f76db6536e1d6',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -736,6 +736,15 @@
             'reference' => '8.x-1.12',
             'dev_requirement' => false,
         ),
+        'drupal/paragraphs_grid' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/paragraphs_grid',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
+        ),
         'drupal/path' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -766,7 +775,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a0a9068bb629138327b8eb8a1917347324e9da22',
+            'reference' => '6db0db94253ff636b827fb080e5f76db6536e1d6',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1120,8 +1129,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(
