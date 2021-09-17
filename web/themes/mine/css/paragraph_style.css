@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Mine overwrite Bartik layout styling.
+ */
+
+.field--name-field-ccomponent > div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.field--name-field-ccomponent > div > div.field__item {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border:solid 1px;
+  border-radius: .25rem!important;
+}
+
+.field--name-field-ccomponent div.field__item img {
+  margin: auto;
+  display: block;
+}
+
+.field--name-field-ccomponent div.field__item div{
+  display:block;
+  width:100%;
+  max-width: 100%;
+}
+
+.field--name-field-ccomponent div.field__item div.field--name-field-profile {
+  display: none;
+}
+
+.open-toggle {
+  display:block;
+}

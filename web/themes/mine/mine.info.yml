@@ -1,0 +1,9 @@
+name: My theme
+type: theme
+core_version_requirement: ^8 || ^9
+description: subtheme of bartik
+base theme: bartik
+
+libraries:
+  - mine/global-styling
+  - mine/global-scripting
